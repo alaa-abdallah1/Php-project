@@ -1,0 +1,353 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #eee !important
+}
+
+*{
+	text-decoration: none !important;
+} 
+
+.alert{
+	font-weight: bold;
+	text-transform: capitalize;
+	text-align: center;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+
+h1, h2{
+	font-weight: bold !important;
+	text-align: center;
+	margin-bottom: 30px
+}
+
+h1, h2, h3{
+	text-transform: capitalize;
+    font-weight: bold !important;
+}
+
+ul{
+	list-style: none;
+	margin-top: 0;
+	padding: 0
+}
+
+.con-status{
+	margin-bottom: 0 !important;
+   	height: 10px !important
+}
+
+.con-status div {
+	position: relative;
+	top: -10px;
+
+}
+
+.nothing{
+	text-transform: capitalize;
+    font-weight: bold;
+    color: darkslategrey
+}
+
+.off{
+	opacity: .6
+}
+.off:hover, .off a:hover, .txt .price:hover{
+	cursor: not-allowed
+}
+
+/* navbar */
+
+.navbar li:hover{
+	background: red  !important
+}
+.dropdown{
+	margin-right: 45px 
+}
+.dropdown-menu{
+	background: #222 !important;
+	padding-bottom: 0px !important	
+}
+.dropdown-menu li a{
+	color: #fff !important
+}
+.dropdown-menu li:hover a{
+	background: red !important
+}
+
+#myNavbar .links li a{
+	text-transform: capitalize !important;
+}
+
+.nav-log{
+	position: relative;
+    top: 8px;
+    padding: 12.5px 6px;
+    margin-left: 10px
+}
+
+
+.img-profile{
+	position: absolute;
+    width: 33px;
+    height: 28px;
+    object-fit: cover;
+    top: 10px;
+    right: 5px;
+}
+.img-profile:hover{
+	cursor: pointer;
+}
+
+
+.main-page .panels .panel-body li .span-right{
+	display: inline-block;
+	float: right;
+	position: relative;
+	top: -6.5px
+}
+
+
+.panel-heading i:hover{
+	cursor: pointer;
+}
+
+
+
+/* sections page*/
+.item-box .main{
+	position: relative;
+}
+.item-box .main .txt{
+	background: #fff;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: -10px !important; 
+    position: relative;
+}
+.item-box .main ul li:nth-child(odd){
+	background-color: #1e88e5 !important; 
+	padding: 10px;
+}
+.item-box .main ul:nth-child(even){
+	background: #fff !important; 
+	color: #333
+}
+
+.item-box .main ul li a{
+	font-weight: bold;
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #fff !important;   
+}
+.item-box .main ul .price{
+	position: absolute;
+    top: 12px;
+    right: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.item-box .main .question{
+	position: absolute;
+    background: #d50000 ;
+    padding: 5px;
+    border-radius: 5px;
+    color: white
+}
+
+.item-box .main ul li.desc{
+    height:50px;
+	overflow: auto; 
+	margin-bottom: 25px
+}
+
+
+/* Log in page*/
+
+.sign span{
+	margin-right: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.sign span:hover{
+	cursor: pointer;
+}	
+
+.selecta{
+	color: #286090
+}
+
+.selectb{
+	color: #449D44
+}
+
+
+.item-box .main ul span.date{
+	position: absolute;
+	right: 3px;
+	bottom :1px;
+	color: #333
+
+}
+/* profile page */
+
+.profile  ul li:nth-child(odd){
+	background: #eee !important; 
+	padding: 10px;
+}
+
+.profile  ul li:nth-child(even){
+	background: #fff !important; 
+	padding: 10px;
+
+}
+
+.profile  ul li i{
+	margin-right: 10px
+}
+
+.profile  ul li .php{
+	position: absolute;
+	left: 160px
+}
+
+.ads .main-login span{
+	text-align: center !important;  
+}
+
+/* ad show */
+
+.ad-show ul{
+	position: relative;
+}
+.ad-show ul li span{
+	position: absolute;
+	left: 120px
+}
+
+/* show comments */
+
+.show-comments .img{
+	width: 80px;
+	height: 80px
+}
+
+.show-comments  img{
+	height:100%;
+	width: 100%
+}
+
+.show-comments .media-body{
+	background: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	position: relative;
+	padding-bottom: 15px
+}
+.show-comments .media-body .txt{
+	position: relative;
+	left: 5px;
+	top: 3px;
+
+}
+
+.show-comments .media-body .txt .date{
+	position: absolute;
+    bottom: -33px;
+    right: 4px;
+}
+
+.show-comments .media-body .txt a{
+	text-transform: capitalize;
+}
+
+.show-comments .media-left{
+	width: 80px;
+	height: 60px
+}
+
+.no-comments, .exist-comments{
+	background: #D9EDF7;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    left: -1px;
+}
+.exist-comments{
+	background: #eee;  
+}
+
+.descc{
+	background: red !important
+}
+
+/* live ads */
+.item-box .main .txt{
+	background: #1E88E5 !important;
+	color: #fff
+}
+.item-box .main .show-price{
+	position: absolute;
+	background: #1E88E5;
+	padding: 5px;
+	border-radius: 1px;
+	font-weight: bold;
+    font-size: 17px;
+    color: white
+}
+
+.item-box .main .live-desc{
+	max-height: 50px;
+	overflow: auto;
+
+	margin-bottom: 30px;
+	color: #fff
+}
+
+.item-box .main .live-date{
+	text-align: right;
+	padding-right: 5px;
+	padding-top: 10px;
+	font-size: 8px;
+	position: absolute;
+	bottom: -5px;
+	right: 0
+}
+
+
+
+
+
+
+
+
+
+
+/*media */
+/*
+@media screen and (max-width: 991px){
+	.item-box .main .question{
+		left: 66px;
+        top: -12px;
+	}
+}
+@media screen and (max-width: 768px){
+	.item-box .main .question{
+		left: 256px;
+        top: 27px;
+
+	}
+}
+
+@media screen and (max-width: 444px){
+	.item-box .main .question{
+		left: 111px;
+        top: 111px;
+	}
+}*/
